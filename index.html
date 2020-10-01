@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Купле-продажа</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+      <span>Купле-продажа в Таллинне</span>
+    </div>
+    <div id="about">
+      <a href="#" title="Возможности" onclick="slowScroll('#top')">Старт</a>
+      <a href="#" onclick="slowScroll('#overview')" title="Преимущества">Соц-сети</a>
+      <a href="#" onclick="slowScroll('#games')" title="Ответы на вопросы">Описание</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакт</a>
+      <a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+    </div>
+  </header>
+
+  <div id="top">
+    <h1>Купле-продажа в Таллинне</h1>
+    <h5>V0.0.1</h5>
+  </div>
+
+
+
+  </div>
+
+  <div id="overview">
+    <h2>Соц-сети</h2>
+
+
+    <div class="img">
+      <img src="https://store-images.s-microsoft.com/image/apps.61941.9007199266242852.ef05176c-edf6-42bc-931a-b80952d0d768.b74b9a18-aa5c-4cd2-83a2-910a81d9ce16?mode=scale&q=90&h=200&w=200&background=%23416894" alt="">
+      <span><ul>
+        <li>Подпишись на наш <a href="" target="_blank">Vk</a></li>
+    </ul></span>
+    </div>
+  </div>
+
+
+
+<div id="games">
+    <h2>Описание сервиса</h2>
+    <h4>...</h4>
+
+
+
+
+  <div id="contacts">
+    <center><h5>Обратная связь</h5></center>
+    <form id="form_input">
+      <label for="name">Имя <span>*</span></label><br>
+      <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+      <label for="email">Ваша почта <span>*</span></label><br>
+			<input type="email" placeholder="Введите email" name="email" id="email"><br>
+			<label for="message">Сообщение <span>*</span></label><br>
+			<textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+			<div id="mess_send" class="btn">Отправить</div>
+    </form>
+  </div>
+
+  <div id="faq">
+    
+    <div>
+      <span class="title">Информация</span><br>
+      <span class="heading">Скоро...</span>
+      <p>-----------------</p>
+    
+    </div>
+
+  </div>
+
+
+  <div class="img">
+    <img src="" alt="">
+    <span><ul>
+      <li>© Все права защищены <a href="https://maknau80.github.io/" target="_blank">ООО «maknau80 hub»</a> 2020</li>
+  </ul></span>
+  </div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+</body>
+</html>
