@@ -1,1 +1,1 @@
-buy-sale.github.io/lalka666
+buy-sale.github.io
