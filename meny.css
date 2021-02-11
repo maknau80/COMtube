@@ -1,0 +1,114 @@
+h1 {
+    float: center;
+    background-image: url(https://wallbox.ru/resize/1920x1080/wallpapers/main2/201727/149959687159620847f228d4.34486523.jpg);
+  
+    background-blend-mode: multiply;
+    background-color: #403f40;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+
+  img {
+    float: center;
+    background-image: url(https://wallbox.ru/resize/1920x1080/wallpapers/main2/201727/149959687159620847f228d4.34486523.jpg);
+  
+    background-blend-mode: multiply;
+    background-color: #403f40;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    padding: 20px 5;
+    width: 159%;
+    text-align: center;
+    color: #fff;
+  }
+
+ h3 {
+    float: center;
+    background-image: url(https://wallbox.ru/resize/1920x1080/wallpapers/main2/201727/149959687159620847f228d4.34486523.jpg);
+  
+    background-blend-mode: multiply;
+    background-color: #000000ce;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    padding: 0px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+
+  g {
+    float: center;
+    background-image: url();
+  
+    background-blend-mode: multiply;
+    background-color: #403f40;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    padding: 200px 50;
+    width: 250%;
+    text-align: center;
+    color: #fff;
+  }
+
+  body {
+    width: 99%;
+    background-image: url(https://cdn.wallscloud.net/converted/3504402353-Siniy-Fon-qLj7-1920x1080-MM-100.jpg);
+    background-blend-mode: multiply;
+    background-size: 2000px;   
+    text-align: center;      
+    color: #fff;
+  }
+
+  div {
+    width: 100%;
+    background-blend-mode: multiply;
+    background-size: 2000px;   
+    text-align: center;      
+    color: #fff;
+  }
+
+  span {
+    width: 159%;
+    background-blend-mode: multiply;
+    background-size: 2000px;   
+    text-align: center;      
+    color: #fff;
+  }
+
+  h2 {
+    float: center;
+    background-image: url(https://wallbox.ru/resize/1920x1080/wallpapers/main2/201727/149959687159620847f228d4.34486523.jpg);
+  
+    background-blend-mode: multiply;
+    background-color: #0000009c;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+
+  h5 {
+    float: center;
+    background-image: url();
+  
+    background-blend-mode: multiply;
+    background-color: #0c0c0c;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
